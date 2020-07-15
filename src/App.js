@@ -16,7 +16,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    window.location = `http://localhost:3000/search/${search}`;
+    window.location = `https://cexplorer-dh.herokuapp.com/search/${search}`;
   };
 
   return (
