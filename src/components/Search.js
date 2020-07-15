@@ -7,7 +7,6 @@ import DrinkCard from "./DrinkCard";
 export default function Search() {
   const [drinks, setDrinks] = useState([]);
   const { name } = useParams();
-  console.log(name);
 
   useEffect(() => {
     const fetchData = async () => {
