@@ -23,7 +23,7 @@ function App() {
     <div className="container">
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
-          <h1 className="display-4">Coctail Database</h1>
+          <h1 className="display-4">Cocktail Database</h1>
           <p className="lead">
             <Categories />
             <form className="form-inline" onSubmit={handleSubmit}>
